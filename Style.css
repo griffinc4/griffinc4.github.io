@@ -1,0 +1,46 @@
+body {
+  background: green;
+}
+p {
+  color:rgb(0,0,0);
+}
+h1 {
+  color:rgb(0, 39, 255);
+  font-weight: bold;
+  text-decoration:underline;
+}
+h2 {
+  color:rgb(0, 255, 0);
+}
+img {
+    border:double;
+    border-color:rgb(0,0,0);
+    width:350px;
+    height:350px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float:center;
+}
+p.caption {
+    margin-left: auto;
+    margin-right:auto; 
+    display:block
+    float:center;
+    font-style:italic;
+}
+div.rotate {
+    transform: rotate(90deg);
+}
+figcaption {
+    font-style:italic;
+    text-align:center;
+    color:rgb(0, 255, 0);
+}
+a {
+   font-size: 50px;
+   text-align:center;
+    float:center;
+    display:block;
+ }
